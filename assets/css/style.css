@@ -169,12 +169,13 @@ section {
 }
 
 #headshot {
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
     float: left;
     vertical-align: text-top;
     padding-right: 20px;
     padding-bottom: 5px;
+    margin-top: 8px;
 }
 
 article {
@@ -258,6 +259,15 @@ form, .image_link {
         width: 850px;
         
     }
+
+    #headshot {
+        width: 40%;
+        height: 40%;
+        /* float: left;
+         /*vertical-align: text-top;
+        /* padding-right: 20px;
+       /*padding-bottom: 5px;
+        /* margin-top: 8px;*/
 
    
 
