@@ -289,29 +289,51 @@ form, .image_link {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 640px) {
-    section, #about, #portfolio, #contact {
-        width: 545px;
-        padding-right: 10px;
-        padding-left: 10px;
+
+    #wrapper {
+        width: 535;
         margin: auto;
     }
 
+    section, #about, #portfolio, #contact {
+        width: 535px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: auto;
+        top: -60px;
+    }
+
     #heading {
-        width: 545px;
+        width: 100%;
+    }
+
+    header {
+        position: static;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    
+    .flag {
+       position: static;
+       float: none;
+       width: 100%;
+       text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 10px 0px;
+    }
+    
+    .menu {
+        float: none;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 10px;
+               
+        
     }
 
    
