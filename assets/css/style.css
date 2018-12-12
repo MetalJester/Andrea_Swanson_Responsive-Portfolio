@@ -240,11 +240,18 @@ form, .image_link {
 }
 
 @media screen and (max-width: 980px) {
+
+    #wrapper {
+        width: 850px;
+        margin: auto;
+    }
+
     section, #about, #portfolio, #contact{
         width: 560px;
         padding-right: 10px;
         padding-left: 10px;
-                                           
+        float: left;
+                                                 
     }
 
     #heading {
@@ -252,20 +259,17 @@ form, .image_link {
         
     }
 
-    section {
-        float: left;
-        margin-left: 40px;
-    }
+   
 
    
 }
-
 
 @media screen and (max-width: 768px) {
     section, #about, #portfolio, #contact {
         width: 560px;
         padding-right: 10px;
         padding-left: 10px;
+        margin: auto;
     }
 
     #heading {
@@ -280,6 +284,7 @@ form, .image_link {
         width: 545px;
         padding-right: 10px;
         padding-left: 10px;
+        margin: auto;
     }
 
     #heading {
