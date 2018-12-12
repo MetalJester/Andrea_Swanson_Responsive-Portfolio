@@ -263,23 +263,21 @@ form, .image_link {
     #headshot {
         width: 40%;
         height: 40%;
-        /* float: left;
-         /*vertical-align: text-top;
-        /* padding-right: 20px;
-       /*padding-bottom: 5px;
-        /* margin-top: 8px;*/
-
-   
-
-   
+    }
+          
 }
 
 @media screen and (max-width: 768px) {
+    #wrapper {
+        width: 560px;
+        margin: auto;
+    }
+    
     section, #about, #portfolio, #contact {
         width: 560px;
         padding-right: 10px;
         padding-left: 10px;
-        margin: auto;
+        
     }
 
     #heading {
@@ -288,6 +286,21 @@ form, .image_link {
 
    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 640px) {
     section, #about, #portfolio, #contact {
