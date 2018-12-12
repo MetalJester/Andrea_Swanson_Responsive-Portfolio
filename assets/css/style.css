@@ -244,6 +244,17 @@ form, .image_link {
         width: 560px;
         padding-right: 10px;
         padding-left: 10px;
+                                           
+    }
+
+    #heading {
+        width: 850px;
+        
+    }
+
+    section {
+        float: left;
+        margin-left: 40px;
     }
 
    
@@ -259,6 +270,20 @@ form, .image_link {
 
     #heading {
         width: 560px;
+    }
+
+   
+}
+
+@media screen and (max-width: 640px) {
+    section, #about, #portfolio, #contact {
+        width: 545px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #heading {
+        width: 545px;
     }
 
    
